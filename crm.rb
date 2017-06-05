@@ -15,7 +15,7 @@ get '/contacts' do
 end
 
 get '/about' do
-  erb :about_me
+  erb :about
 end
 
 after do

@@ -18,9 +18,3 @@ class Contact < ActiveRecord::Base
 end
 
 Contact.auto_upgrade!
-
-# Contact.create(:first_name => "Marty", :last_name => "McFly", :email => "marty@mcfly.com")
-# Contact.create(:first_name => "George", :last_name => "McFly", :email => "george@mcfly.com")
-# Contact.create(:first_name => "Lorraine", :last_name => "McFly", :email=> "lorraine@mcfly.com")
-# Contact.create(:first_name => "Biff", :last_name => "Tannen", :email=> "biff@tannen.com")
-# Contact.create(:first_name => "Doc", :last_name => "Brown", :email=> "doc@brown.com")
